@@ -1,60 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761405670431,
+  "lastUpdate": 1761420304886,
   "repoUrl": "https://github.com/czlonkowski/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
-      {
-        "commit": {
-          "author": {
-            "email": "56956555+czlonkowski@users.noreply.github.com",
-            "name": "Romuald Członkowski",
-            "username": "czlonkowski"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9a00a990116de7f7bee8a4207a64b477b8a9721b",
-          "message": "Merge pull request #279 from czlonkowski/security/issue-265-pr1-critical-timing-and-injection\n\n🔒 CRITICAL Security Fixes: Timing Attack & Command Injection (Issue #265)",
-          "timestamp": "2025-10-06T14:39:38+02:00",
-          "tree_id": "6537a13d13339660588b6610048a622b0146028f",
-          "url": "https://github.com/czlonkowski/n8n-mcp/commit/9a00a990116de7f7bee8a4207a64b477b8a9721b"
-        },
-        "date": 1759754499594,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "sample - array sorting - small",
-            "value": 0.0188,
-            "range": "0.2805",
-            "unit": "ms",
-            "extra": "53131 ops/sec"
-          },
-          {
-            "name": "sample - array sorting - large",
-            "value": 3.0926,
-            "range": "0.6011000000000002",
-            "unit": "ms",
-            "extra": "323 ops/sec"
-          },
-          {
-            "name": "sample - string concatenation",
-            "value": 0.0039,
-            "range": "0.2629",
-            "unit": "ms",
-            "extra": "256741 ops/sec"
-          },
-          {
-            "name": "sample - object creation",
-            "value": 0.0607,
-            "range": "0.3702",
-            "unit": "ms",
-            "extra": "16469 ops/sec"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1710,6 +1658,37 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/czlonkowski/n8n-mcp/commit/b87f638e52d85ab77302f60293113d01d28a14ae"
         },
         "date": 1761405669681,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0136,
+            "range": "0.3096",
+            "unit": "ms",
+            "extra": "73341 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee7229b4dbef765f5dce6516787eb137fec4c8a2",
+          "message": "Merge pull request #372 from czlonkowski/fix/sync-package-runtime-version-2.22.3\n\nfix: resolve release workflow YAML parsing errors with script-based approach",
+          "timestamp": "2025-10-25T21:23:10+02:00",
+          "tree_id": "687db9045c0a0b78aba6c5468f67545d094020ab",
+          "url": "https://github.com/czlonkowski/n8n-mcp/commit/ee7229b4dbef765f5dce6516787eb137fec4c8a2"
+        },
+        "date": 1761420304574,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
